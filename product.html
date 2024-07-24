@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra-Products</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Responsive Nav bar-->
+    <nav class="bg-white-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Nostra</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+                <li><a class="hover:underline hover:text-black" href="product.html" >Products</a></li>
+                <li><a class="hover:underline hover:text-black"  href="contact.html">Contact</a></li>
+
+            </ul>
+    </nav>
+    <!-- Side navbar -->
+    <section id="sidenav" class="bg-white fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center ext-gray-600">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html" >Collections</a></li>
+            <li><a class="hover:underline hover:text-black"  href="contact.html">Contact</a></li>
+        </ul>
+
+     </section>
+
+     <!-- container -->
+     <div class="container">
+        <div class="filters">
+            <h3>Occasions</h3>
+            <div>
+                <input type="checkbox" value="summer">
+                Summer <br>
+            
+                <input type="checkbox"  value="party">
+                Party <br>
+                <input type="checkbox" value="beach">
+                Beach <br>
+            </div>
+            <h3>Gender</h3>
+            <div>
+                <input type="checkbox"  value="red">
+                Blue <br>
+                <input type="checkbox"  value="blue">
+                Yellow <br>
+                <input type="checkbox"  value="white">
+                White <br>
+               
+            </div>
+            <h3>Arrivals</h3>
+            <div>
+                <input type="checkbox"  value="new">
+                New <br>
+                <input type="checkbox"  value="old">
+                Old <br>
+    
+            </div>
+        </div>
+        <div class="products">
+            <div class="searchbar">
+                <input id="searchbox" type="text" placeholder="search products..."><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="product-image">
+                <div class="product">
+                    <img src="./products/f1.jpg">
+                    <h1>Summer Shirt</h1>
+                    <p>Rs.500</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f2.jpg">
+                    <h1>Summer fasion</h1>
+                    <p>Rs.450</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f3.jpg">
+                    <h1>Floral Shirt</h1>
+                    <p>Rs.600</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f4.jpg">
+                    <h1>Party White</h1>
+                    <p>Rs.700</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f5.jpg">
+                    <h1>Blue shirt</h1>
+                    <p>Rs.300</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f6.jpg">
+                    <h1>Men Fasion</h1>
+                    <p>Rs.900</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f7.jpg">
+                    <h1>Girls Pans</h1>
+                    <p>Rs.850</p>
+                </div>
+                <div class="product">
+                    <img src="./products/f8.jpg">
+                    <h1>Girls Silve</h1>
+                    <p>Rs.699</p>
+                </div>
+                <div class="product">
+                    <img src="./products/n3.jpg">
+                    <h1>White Shirt</h1>
+                    <p>Rs.499</p>
+                </div>
+            </div>
+        </div>
+       </div>
+
+   <!-- News Letter -->
+   <section class="text-center bg-gray-100">
+    <h1 class="text-3xl font-bold mt-5 text-center">Jion our News Letter</h1>
+    <p>Sign in for email newspaper to get exclusive discounts, updates, nd more</p>
+    <br>
+    <input type="text" class="border border-black mb-3 p-2 " style="width: 80%;">
+    <br>
+    <button class="bg-white text-black p-3 m-1 border border-black">Subscribe</button>
+
+   </section>
+
+       <!-- Footer -->
+       <section class="bg-black p-10 flex flex-col gap-5 text-white">
+        <h1 class="text-4xl font-bold">Nostra</h1>
+        <p>The stanard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, explicabo?</p>
+        
+        <p>@ 2023 Nostra.com</p>
+    </section>
+
+    <script src="product.js"></script>
+    
+</body>
+</html>

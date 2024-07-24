@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!---Tailwind CSS CDN Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Responsive Nav bar-->
+    <nav class="bg-white-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Nostra</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+                <li><a class="hover:underline hover:text-black" href="#">Home</a></li>
+                <li><a class="hover:underline hover:text-black" href="#" >Arrival</a></li>
+                <li><a class="hover:underline hover:text-black"  href="#">Most Wanted</a></li>
+                <li><a class="hover:underline hover:text-black"  href="product.html">Collections</a></li>
+                <li><a class="hover:underline hover:text-black"  href="contact.html">Contact Us</a></li>
+
+            </ul>
+    </nav>
+
+    <!-- Side navbar -->
+    <section id="sidenav" class="bg-white fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center ext-gray-600">
+            <li><a class="hover:underline hover:text-black" href="index.html">Home</a></li>
+            <li><a class="hover:underline hover:text-black" href="product.html" >Collections</a></li>
+            <li><a class="hover:underline hover:text-black"  href="contact.html">Contact</a></li>
+        </ul>
+
+     </section>
+     
+     <section class="banner">
+        
+        <div class="banner-content">
+            <h1>Level Up Your Style With Our</h1>
+            <h3>Summer Collections</h3>
+            <button class="banner-button">Shop Now</button>
+        </div>
+        <div>
+            <img src="images/offer.jpg" >
+                </div>
+        </section>
+
+       
+
+     <section>
+        <h1 style="margin-top: 5vw;" class="text-4xl">Brands</h1>
+     <div  class="brands">
+         <div class="brands-item">
+             <img class="brands-icon" src="images/puma.png">
+             <p>Puma</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/adidas.png">
+             <p>Adidas</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/simple.png">
+             <p>Simple</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/leaves.png" alt="">
+             <p>Leaves</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/behance.png" alt="">
+             <p>Behance</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/twitch.png" alt="">
+             <p>Twitch</p>
+         </div>
+
+         <div class="brands-item">
+             <img class="brands-icon" src="images/leaves.png" alt="">
+             <p>Leaves</p>
+         </div>
+     </div>
+    </section> 
+
+      <!-- Service -->
+      <div class="service">
+        <div id="service-content" class="hidden md:block">
+            <div>
+                <h2 style="font-weight: 900;">We Provider Best</h2>
+                <h2 style="font-weight: 900;"> customer experience</h2>
+            </div>
+        <div>
+            <p>|| we ensure that our customer have the best Shopping experience</p>
+        </div>
+        </div>
+
+     </div>
+       
+
+    <div class="servives-container-2">
+        <div>
+            <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-circle-check"></i>
+            <h4>Original Products</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+            </p>
+        </div>
+
+        <div>
+            <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-regular fa-face-smile"></i>
+            <h4>Satisfaction Guarantee</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+            </p>
+        </div>
+
+        <div>
+            <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-broom"></i>
+            <h4>New Arrival Everyday</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+            </p>
+        </div>
+
+        <div>
+            <i style="font-size: 3vw;margin-bottom: 10px;" class="fa-solid fa-truck-fast"></i>
+            <h4>Fast & Free Shipping</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+ <!-- New Arrivals -->
+ <section class="arrivals" id="arrival">
+    <h1>New Arrivals</h1>
+    <div class="new-arrivals">
+        <div class="new-arrivals__container">
+            <img src="products/f1.jpg" alt=""><br>
+            <button><a href="product.html">Shop Now</a> </button>
+        </div>
+        <div class="new-arrivals__container">
+            <img src="products/f5.jpg" alt=""><br>
+            <button><a href="product.html">Shop Now</a> </button>
+        </div>
+        <div class="new-arrivals__container">
+            <img src="products/f6.jpg" alt=""><br>
+            <button><a href="collection.html">Shop Now</a> </button>
+        </div>
+        <div class="new-arrivals__container">
+            <img src="products/f3.jpg" alt="">
+            <button><a href="product.html">Shop Now</a> </button>
+        </div>
+    </div>
+</section>
+
+<!-- Most Wanted -->
+<section class="wanted" id="wanted">
+    <h1>Most Wanted</h1>
+    <div class="most-wanted">
+        <div class="most-wanted__container" id="m-wanted">
+            <img src="products/n1.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n2.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style=" color: black;"
+                    id="i-color"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n3.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl fa-2xl"
+                    style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n4.jpg" alt="">
+            <button>Sale </button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n5.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n6.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n7.jpg" alt=""><br>
+            <button>Sale</button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010204;"></i></span>
+        </div>
+        <div class="most-wanted__container">
+            <img src="products/n8.jpg" alt="">
+            <button>Sale </button>
+            <span class="fav-icon"><i class="fa-regular fa-heart fa-2xl" style="color: #010203;"></i></span>
+        </div>
+    </div>
+</section>
+
+<!-- Limited offer section -->
+<section class="offer">
+    <div class="limited-offer">
+        <div class="limited-offer__img">
+            <img src="images/offer.jpg" alt="">
+        </div>
+        <div class="limited-offer__content">
+            <h1>Limited Offer</h1>
+            <p><b>35% OFF on this for the first 30 Customers</b></p>
+            <button><a href="product.html">Shop Now <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></a></button>
+        </div>
+    </div>
+</section>
+</div>
+
+   <!-- News Letter -->
+   <section class="text-center bg-gray-100">
+    <h1 class="text-3xl font-bold mt-5 text-center">Jion our News Letter</h1>
+    <p>Sign in for email newspaper to get exclusive discounts, updates, nd more</p>
+    <br>
+    <input type="text" class="border border-black mb-3 p-2 " style="width: 80%;">
+    <br>
+    <button class="bg-white text-black p-3 m-1 border border-black">Subscribe</button>
+
+   </section>
+
+       <!-- Footer -->
+        <section class="bg-black p-10 flex flex-col gap-5 text-white">
+            <h1 class="text-4xl font-bold">Nostra</h1>
+            <p>The stanard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, explicabo?</p>
+            <p>@ 2023 Nostra.com</p>
+        </section>
+    <script src="index.js"></script>
+    
+</body>
+</html>
